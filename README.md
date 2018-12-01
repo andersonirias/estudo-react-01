@@ -1,2 +1,2 @@
-# estudo-react-01
+# estudo-react
 Primeiro site criado utilizando React + Bootstrap
