@@ -30,7 +30,7 @@ app.get('/updates', (req, res) => {
   ];
 
  
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
   res.setHeader('Access-Control-Allow-Credentials', true);
@@ -38,11 +38,9 @@ app.get('/updates', (req, res) => {
   res.send(updates);
 });
 
-
 app.post('/contato', (req, res) => {
-  console.log(req.body);
-
-  res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
+ 
+  res.setHeader('Access-Control-Allow-Origin', 'http://localhost');
   res.setHeader('Access-Control-Allow-Methods', 'GET, POST, OPTIONS, PUT, PATCH, DELETE');
   res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
   res.setHeader('Access-Control-Allow-Credentials', true);
@@ -50,5 +48,5 @@ app.post('/contato', (req, res) => {
   res.send('Requisição post');
 });
 
-app.listen(8081, () => console.log('Example app listening on port 8081!'));
+app.listen(8081, () => console.log('Aplicação rodando na porta 8081'));
 
