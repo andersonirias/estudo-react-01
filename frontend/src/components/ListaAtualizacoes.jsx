@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import axios from 'axios';
 import Atualizacao from './Atualizacao';
-
 import './../assets/css/signin.css';
 
 const querystring = require('querystring');

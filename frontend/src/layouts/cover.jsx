@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Link, NavLink, Redirect } from "react-router-dom";
-
 import Inicio from '.././views/Inicio';
 import Atualizacoes from '.././views/Atualizacoes';
 import Contato from '.././views/Contato';
